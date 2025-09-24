@@ -13,6 +13,7 @@ public class exercises_2 {
         double xB = sc.nextDouble();
         System.out.print("yB: ");
         double yB = sc.nextDouble();
+
         double AB  = Math.sqrt((xB - xA)*(xB -  xA) + (yB - yA)*(yB - yA));
         System.out.println("Khoảng cách |AB| là: " + AB);
     }
